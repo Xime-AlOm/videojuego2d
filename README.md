@@ -1,4 +1,4 @@
-# Caza Cempasúchil 🌼 — Videojuego Día de Muertos
+# Caza Cempasúchil — Videojuego Día de Muertos
 
 ## Contexto
 El videojuego **Caza Cempasúchil** está inspirado en la tradición mexicana del **Día de Muertos**.
