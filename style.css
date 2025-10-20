@@ -1,0 +1,45 @@
+/* Fondo general */
+body {
+  background-image: url('assets/fondo.jpeg'); /* Ajusta la ruta */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Canvas container */
+.game-wrapper {
+  width: 100%;
+  max-width: 900px;
+  height: 560px;
+  margin: 0 auto;
+  border: 3px solid rgba(255, 166, 0, 0.7);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+/* Canvas con cursor personalizado */
+#gameCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: url('/assets/cursor.png') 16 16, crosshair;
+}
+
+/* Contador */
+#scoreBox {
+  background: rgba(19, 5, 5, 0.85);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Instrucciones */
+.instructions {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  .game-wrapper { height: 420px; }
+}
